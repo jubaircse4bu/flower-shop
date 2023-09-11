@@ -1,0 +1,236 @@
+/* Common Design */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #E55473;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFFFFF;
+    padding: 20px 43px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Header Section Design */
+
+.banner {
+    background-color: #E554731A;
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 700px;
+    /* align-items: center; */
+}
+
+.banner .flower-pic {
+    width: 500px;
+}
+
+.banner-title {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* Main Design */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* Bonus Section 1 Design */
+
+.banner-s {
+    align-items: center;
+}
+
+.banner-s-text {
+    max-width: 700px;
+    padding: 24px 220px;
+}
+
+.round-pic-container {
+    display: flex;
+    gap: 24px;
+}
+
+.link {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.round-pic {
+    width: 250px;
+}
+
+.background1 {
+    border-radius: 300px 300px 0px 0px;
+    background: #A7216226;
+    padding: 100px 45px 0px 45px;
+    width: 300px;
+    height: 360px;
+    align-items: center;
+}
+
+.background2 {
+    border-radius: 300px 300px 0px 0px;
+    padding: 100px 45px 0px 45px;
+    background: #0597A026;
+    padding: 100px 45px 0px 45px;
+    width: 300px;
+    height: 360px;
+    align-items: center;
+}
+
+.background3 {
+    border-radius: 300px 300px 0px 0px;
+    background: #477D1126;
+    padding: 100px 45px 0px 45px;
+    width: 300px;
+    height: 360px;
+    align-items: center;
+}
+
+/* Bonus Section 2 Design */
+
+.banner-s2 {
+    display: flex;
+    align-items: center;
+    background: #2727270D;
+}
+
+.add-container {
+    display: flex;
+    gap: 35px;
+    padding: 80px 150px;
+    text-align: center;
+    align-items: center;
+}
+
+/* Banner 2 Design */
+.section-content {
+    max-width: 550px;
+}
+
+.banner2 {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    background: #E554730D;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.sign-up {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Flower Card Section Design */
+
+.banner3 {
+    /* padding: 30px 0px 0px 150px; */
+    background: #FFF;
+    text-align: center;
+}
+
+.flower-card {
+    display: flex;
+    gap: 24px;
+}
+
+.card-pic {
+    width: 267px;
+}
+
+/* Subscribe Section Design */
+.banner4 {
+    background: url("/images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 120px;
+}
+
+.coupon {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-weight: 400;
+}
+
+.subscribe {
+    display: flex;
+    padding: 30px;
+    gap: 5px;
+
+}
+
+.input {
+    width: 700px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding-left: 20px;
+
+}
+
+/* Footer Section Design */
+
+.footer-container {
+    margin-top: 125px;
+    padding: 128px 650px;
+    background: #111010;
+    text-align: center;
+    color: #FFFFFFE5;
+}
+
+.footer-description {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.copyright {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.40);
+}
